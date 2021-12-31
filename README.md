@@ -1,6 +1,6 @@
 # BACKEND
 
-Esse projeto foi gerado utilizando APS .NET CORE na version 3.1
+Esse projeto foi gerado utilizando ASP.NET CORE na version 3.1
 
 Para executar a aplicação, basta pelo diretório: `cd BACKEND/API` e inserir o comando `dotnet run` no terminal.
 
