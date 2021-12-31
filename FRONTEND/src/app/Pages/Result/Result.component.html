@@ -1,0 +1,45 @@
+
+
+<div id="dashboard">
+  <section class="dash-row">
+    <mat-card style="display: flex; flex-direction: column;">
+
+    <mat-card-title style="display: flex; justify-content: center; align-items: center; flex: 1; margin-top: 3px;">
+        Resultado Final
+    </mat-card-title>
+
+    <mat-card-subtitle style="display: flex; justify-content: center; align-items: center; flex: 1;">
+      Veja o resultado final do Campeonato de filmes de forma simples e rápida
+    </mat-card-subtitle>
+
+
+    <div class="dash-row">
+
+
+      <div class="col text-right">
+        <button mat-raised-button color="accent"(click)="RedirectToDashboard()"
+        style="background-color: rgb(0 0 0 / 87%);">Voltar</button>
+      </div>
+    </div>
+
+    <mat-card-content>
+
+        <section>
+          <div class="container">
+              <app-WinnersList *ngFor="let filme of listaFilmes; let i= index"
+              [posicao]= "i+1"
+              [titulo]="filme.titulo"
+              >
+              </app-WinnersList>
+          </div>
+
+
+          </section>
+
+    </mat-card-content>
+
+
+    </mat-card>
+  </section>
+</div>
+

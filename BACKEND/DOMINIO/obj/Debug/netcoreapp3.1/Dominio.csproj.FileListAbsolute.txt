@@ -1,0 +1,16 @@
+E:\ProjetoAvaliativo\BACKEND\DOMINIO\bin\Debug\netcoreapp3.1\Dominio.deps.json
+E:\ProjetoAvaliativo\BACKEND\DOMINIO\bin\Debug\netcoreapp3.1\Dominio.dll
+E:\ProjetoAvaliativo\BACKEND\DOMINIO\bin\Debug\netcoreapp3.1\Dominio.pdb
+E:\ProjetoAvaliativo\BACKEND\DOMINIO\obj\Debug\netcoreapp3.1\Dominio.csprojAssemblyReference.cache
+E:\ProjetoAvaliativo\BACKEND\DOMINIO\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfoInputs.cache
+E:\ProjetoAvaliativo\BACKEND\DOMINIO\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfo.cs
+E:\ProjetoAvaliativo\BACKEND\DOMINIO\obj\Debug\netcoreapp3.1\Dominio.dll
+E:\ProjetoAvaliativo\BACKEND\DOMINIO\obj\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\55319\Documents\GitHub\YasminTavares-17-12-2021\BACKEND\DOMINIO\bin\Debug\netcoreapp3.1\Dominio.deps.json
+C:\Users\55319\Documents\GitHub\YasminTavares-17-12-2021\BACKEND\DOMINIO\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\55319\Documents\GitHub\YasminTavares-17-12-2021\BACKEND\DOMINIO\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\55319\Documents\GitHub\YasminTavares-17-12-2021\BACKEND\DOMINIO\obj\Debug\netcoreapp3.1\Dominio.csprojAssemblyReference.cache
+C:\Users\55319\Documents\GitHub\YasminTavares-17-12-2021\BACKEND\DOMINIO\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfoInputs.cache
+C:\Users\55319\Documents\GitHub\YasminTavares-17-12-2021\BACKEND\DOMINIO\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfo.cs
+C:\Users\55319\Documents\GitHub\YasminTavares-17-12-2021\BACKEND\DOMINIO\obj\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\55319\Documents\GitHub\YasminTavares-17-12-2021\BACKEND\DOMINIO\obj\Debug\netcoreapp3.1\Dominio.pdb

@@ -1,0 +1,49 @@
+<div id="dashboard">
+  <section class="dash-row">
+    <mat-card style="display: flex; flex-direction: column;     min-height: 170px;    ">
+      <mat-card-title style="display: flex; justify-content: center; align-items: center; flex: 1; margin-top: 3px;">
+        Fase de Seleção
+      </mat-card-title>
+
+      <mat-card-subtitle style="display: flex; justify-content: center; align-items: center; flex: 1;">
+        Selecione 8 filmes que você deseja que entrem na competição e depois clique no botão "Gerar Campeonato" para prosseguir
+      </mat-card-subtitle>
+    </mat-card>
+  </section>
+
+
+  <div class="dash-row">
+    <div class="col">
+        <h5>
+          <strong >
+            Selecionados <span>{{contador}}</span> de 8 filmes
+          </strong>
+        </h5>
+    </div>
+
+    <div class="col text-right">
+      <button mat-raised-button color="accent"(click)="EnviarFilmesSelecionados()"
+      style="background-color: rgb(0 0 0 / 87%);">Gerar
+      Campeonato</button>
+    </div>
+  </div>
+
+
+  <div id="dashboard">
+    <section class="dash-row">
+      <mat-card style="display: flex; flex-direction: column;">
+
+        <mat-card-content>
+          <section class="row" style="display: flex; justify-content:center; flex: 1;" >
+            <app-Itens *ngFor="let filme of listaFilmes" [titulo]="filme.titulo" [ano]="filme.ano" [nota]="filme.nota"(eventoSelecionar)="ObterItemSelecionado($event, filme)"> </app-Itens>
+          </section>
+        </mat-card-content>
+
+      </mat-card>
+    </section>
+  </div>
+
+
+
+
+</div>
