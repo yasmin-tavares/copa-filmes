@@ -14,7 +14,7 @@ namespace Dominio.Classes
             IEnumerable<Filme> retorno;
             using (var client = new HttpClient())
             {
-                using (var api = await client.GetAsync("http://copafilmes.azurewebsites.net/api/filmes"))
+                using (var api = await client.GetAsync("https://l3-processoseletivo.azurewebsites.net/api/Competidores?copa=filmes"))
                 {
                     var apiResult = await api.Content.ReadAsStringAsync();
                     retorno = JsonConvert.DeserializeObject<IEnumerable<Filme>>(apiResult);
